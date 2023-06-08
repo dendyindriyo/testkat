@@ -6,6 +6,7 @@
    <UUID>1263cc0b-e249-4111-a3ef-f70776922693</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Program Files\Katalon\Katalon Projects\testkatg\testkatg.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

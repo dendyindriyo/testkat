@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSuite_1" time="89.324" tests="3" failures="1" errors="0">
+   <testsuite name="TSuite_1" tests="3" failures="1" errors="0" time="89.324" skipped="0" timestamp="2023-05-27 15:06:37" hostname="Danang - DESKTOP-V3UDJBC" id="Test Suites/Normal_User/TSuite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Program Files\\Katalon\\Katalon Projects\\testkatg\\Reports\\20230527_150634\\Normal_User\\TSuite_1\\20230527_150635"/>
+         <property name="logFiles" value="D:\\Program Files\\Katalon\\Katalon Projects\\testkatg\\Reports\\20230527_150634\\Normal_User\\TSuite_1\\20230527_150635\\execution0.log"/>
+         <property name="attachments" value="D:\\Program Files\\Katalon\\Katalon Projects\\testkatg\\Reports\\20230527_150634\\Normal_User\\TSuite_1\\20230527_150635\\1685174804990.png"/>
+         <property name="hostName" value="Danang - DESKTOP-V3UDJBC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="e98d56fb83a98e1734caec9ba210817c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1a" time="7.706" classname="Test Cases/1a" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1a FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-27 15:06:37 - [TEST_CASE][FAILED] - Test Cases/1a: Test Cases/1a FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-27 15:06:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 15:06:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 15:06:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 15:06:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 15:06:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:06:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_CURA Healthcare Service/Btn_Make Appointment")): Object: 'Object Repository/Login_CURA Healthcare Service/Btn_Make Appointment' is clicked on
+
+2023-05-27 15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_CURA Healthcare Service/Btn_Make Appointment' is clicked on
+
+2023-05-27 15:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:06:44 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:06:44 - [TEST_STEP][FAILED] - setText(findTestObject("null"), "ThisIsNotAPassword"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1685098572283.run(Script1685098572283.groovy:28)
+	... 13 more
+)
+
+2023-05-27 15:06:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2023-05-27 15:06:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-27 15:06:45 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1685098572283.run(Script1685098572283.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Program Files\\Katalon\\Katalon Projects\\testkatg\\Reports\\20230527_150634\\Normal_User\\TSuite_1\\20230527_150635\\1685174804990.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-27 15:06:37 - [TEST_CASE][FAILED] - Test Cases/1a: Test Cases/1a FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1b" time="13.247" classname="Test Cases/1b" status="PASSED">
+         <system-out><![CDATA[2023-05-27 15:06:45 - [TEST_CASE][PASSED] - Test Cases/1b: Test Cases/1b
+
+2023-05-27 15:06:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 15:06:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-27 15:06:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 15:06:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 15:06:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 15:06:47 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:06:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Make Appointment (1)")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Make Appointment (1)' is clicked on
+
+2023-05-27 15:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Make Appointment (1)' is clicked on
+
+2023-05-27 15:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:06:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:06:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-05-27 15:06:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-05-27 15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Login")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Login' is clicked on
+
+2023-05-27 15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/btn_Login' is clicked on
+
+2023-05-27 15:06:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-05-27 15:06:54 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-05-27 15:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-05-27 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-05-27 15:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-05-27 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-05-27 15:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-05-27 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-05-27 15:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/td_30' is clicked on
+
+2023-05-27 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/td_30' is clicked on
+
+2023-05-27 15:06:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment"), "asd"): Text 'asd' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-05-27 15:06:57 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-05-27 15:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-05-27 15:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-05-27 15:06:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2023-05-27 15:06:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1c" time="68.196" classname="Test Cases/1c" status="PASSED">
+         <system-out><![CDATA[2023-05-27 15:06:58 - [TEST_CASE][PASSED] - Test Cases/1c: Test Cases/1c
+
+2023-05-27 15:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 15:06:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-27 15:06:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 15:06:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 15:07:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 15:07:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:07:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-05-27 15:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-05-27 15:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-05-27 15:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:07:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-05-27 15:07:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-05-27 15:07:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-05-27 15:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-05-27 15:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-05-27 15:08:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-05-27 15:08:01 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-05-27 15:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2023-05-27 15:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2023-05-27 15:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_None")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_None' is clicked on
+
+2023-05-27 15:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_None' is clicked on
+
+2023-05-27 15:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-05-27 15:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-05-27 15:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_6")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_6' is clicked on
+
+2023-05-27 15:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_6' is clicked on
+
+2023-05-27 15:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment"), "rt"): Text 'rt' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-05-27 15:08:04 - [MESSAGE][PASSED] - Text 'rt' is set on object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-05-27 15:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-05-27 15:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-05-27 15:08:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2023-05-27 15:08:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Make Appointment_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-27 15:06:37 - [TEST_SUITE][FAILED] - TSuite_1: Test Cases/1a FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-27 15:06:37 - [TEST_SUITE][FAILED] - TSuite_1: Test Cases/1a FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at 1a.run(1a:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685174795751.run(TempTestSuite1685174795751.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
